@@ -28,7 +28,7 @@ BarGradient=180 | 0,178,255,255 ; 0.0 | 139,22,255,255 ; 0.5 | 255,51,51,255 ; 1
 ;General settings
 
 ;This value controls the speed of the skin active/deactive animation. The lower the value the faster the speed.
-AnimationFactor=16
+AnimationFactor=10
 
 ;This controls if battery is displayed across the skins. 0 to display and 1 to hide them.
 ShowBattery=1
@@ -38,6 +38,16 @@ ShowBattery=1
 BarFont=Borda 4
 ;Font used by the launcher buttons
 LauncherFont=Baksheesh
+
+;Launcher location
+; Possible options: 1=TOP 2=BOTTOM 3=LEFT 4=RIGHT
+LauncherPosition=3
+
+;MainFrame visibility
+; Standard color option
+LauncherVisibility=255,125,50,170
+
+
 
 
 ;-------------------------------------------------------------------------------------------------------------------------
@@ -67,13 +77,13 @@ Group1BarIcon=hexagons.png
 
 ;Launcher settings: action, name, icon and mouseover background
 
-Group1Launcher1Action=["C:\Program Files\Unity\Editor\Unity.exe"]
-Group1Launcher1Name=Unity
+Group1Launcher1Action=["D:\Google Drive\ScienceProjects"]
+Group1Launcher1Name=Science
 Group1Launcher1Icon=_d_unity.png
-Group1Launcher1BG=012
+Group1Launcher1BG=014
 
 Group1Launcher2Action=["C:\Program Files\Blender Foundation\Blender\blender.exe"]
-Group1Launcher2Name=Blender
+Group1Launcher2Name=Game
 Group1Launcher2Icon=_c_blender.png
 Group1Launcher2BG=056
 
@@ -107,10 +117,10 @@ Group2BarIcon=arc.png
 
 ;Launcher settings: action, name, icon and mouseover background
 
-Group2Launcher1Action=["C:\Program Files\Adobe\Adobe After Effects CS6\Support Files\AfterFX.exe"]
-Group2Launcher1Name=After Effects
-Group2Launcher1Icon=_c_aftereffects.png
-Group2Launcher1BG=093
+Group2Launcher1Action=["https://www.deviantart.com/"]
+Group2Launcher1Name=DeviantArt
+Group2Launcher1Icon=deviantART.png
+Group2Launcher1BG=020
 
 Group2Launcher2Action=["C:\Program Files\Adobe\Adobe Premiere Pro CS6\Adobe Premiere Pro.exe"]
 Group2Launcher2Name=Premiere
@@ -147,32 +157,32 @@ Group3BarIcon=gamepad.png
 
 ;Launcher settings: action, name, icon and mouseover background
 
-Group3Launcher1Action=[steam://rungameid/265610]
+Group3Launcher1Action=steam://rungameid/265610
 Group3Launcher1Name=Epic Battle Fantasy 4
 Group3Launcher1Icon=_g_epicbattlefantasy.png
 Group3Launcher1BG=041
 
-Group3Launcher2Action=[steam://rungameid/391540]
+Group3Launcher2Action=steam://rungameid/391540
 Group3Launcher2Name=Undertale
 Group3Launcher2Icon=_g_undertale.png
 Group3Launcher2BG=062
 
-Group3Launcher3Action=[steam://rungameid/351710]
+Group3Launcher3Action=steam://rungameid/351710
 Group3Launcher3Name=Neptunia ReBirth Mk2
 Group3Launcher3Icon=_g_neptunia.png
 Group3Launcher3BG=022
 
-Group3Launcher4Action=[steam://rungameid/8930]
+Group3Launcher4Action=steam://rungameid/8930
 Group3Launcher4Name=Civilization V
 Group3Launcher4Icon=_g_civilizationv.png
 Group3Launcher4BG=095
 
-Group3Launcher5Action=[steam://rungameid/255710]
+Group3Launcher5Action=steam://rungameid/255710
 Group3Launcher5Name=Cities Skylines
 Group3Launcher5Icon=_g_citiesskylinesalt.png
 Group3Launcher5BG=036
 
-Group3Launcher6Action=[steam://rungameid/281990]
+Group3Launcher6Action=steam://rungameid/281990
 Group3Launcher6Name=Stellaris
 Group3Launcher6Icon=_g_stellaris.png
 Group3Launcher6BG=076
@@ -187,17 +197,17 @@ Group4BarIcon=gamepad.png
 
 ;Launcher settings: action, name, icon and mouseover background
 
-Group4Launcher1Action=[steam://rungameid/220200]
+Group4Launcher1Action=steam://rungameid/220200
 Group4Launcher1Name=Kerbal Space Program
 Group4Launcher1Icon=_g_ksp.png
 Group4Launcher1BG=KSP3
 
-Group4Launcher2Action=[steam://rungameid/212680]
+Group4Launcher2Action=steam://rungameid/212680
 Group4Launcher2Name=FTL
 Group4Launcher2Icon=_g_ftl.png
 Group4Launcher2BG=FTL
 
-Group4Launcher3Action=["http://www.dmm.com/netgame/social/-/gadgets/=/app_id=854854/"]
+Group4Launcher3Action="http://www.dmm.com/netgame/social/-/gadgets/=/app_id=854854/"
 Group4Launcher3Name=Kantai Collection
 Group4Launcher3Icon=_g_kantaicollection.png
 Group4Launcher3BG=KanColle
@@ -207,12 +217,12 @@ Group4Launcher4Name=Granblue Fantasy
 Group4Launcher4Icon=_g_granbluefantasy.png
 Group4Launcher4BG=GBF
 
-Group4Launcher5Action=[steam://rungameid/3590]
+Group4Launcher5Action=steam://rungameid/3590
 Group4Launcher5Name=Plants VS Zombies
 Group4Launcher5Icon=_g_plantsvszombies.png
 Group4Launcher5BG=045
 
-Group4Launcher6Action=[steam://rungameid/387290]
+Group4Launcher6Action=steam://rungameid/387290
 Group4Launcher6Name=Ori DE
 Group4Launcher6Icon=_g_oriandtheblindforest.png
 Group4Launcher6BG=Ori
