@@ -72,7 +72,7 @@ LauncherVisibility=255,125,50,170
 
 ;Name and icon for the navbar
 
-Group1BarName=01
+Group1BarName=Sci
 Group1BarIcon=hexagons.png
 
 ;Launcher settings: action, name, icon and mouseover background
@@ -112,7 +112,7 @@ Group1Launcher6BG=102
 
 ;Name and icon for the navbar
 
-Group2BarName=02
+Group2BarName=Art
 Group2BarIcon=arc.png
 
 ;Launcher settings: action, name, icon and mouseover background
@@ -122,9 +122,9 @@ Group2Launcher1Name=DeviantArt
 Group2Launcher1Icon=deviantART.png
 Group2Launcher1BG=020
 
-Group2Launcher2Action=["C:\Program Files\Adobe\Adobe Premiere Pro CS6\Adobe Premiere Pro.exe"]
-Group2Launcher2Name=Premiere
-Group2Launcher2Icon=_c_premiere.png
+Group2Launcher2Action=["E:\Program Files\Microsoft VS Code\Code.exe" "D:\Google Drive\Windows_Personalize\Rainmeter\Rainmeter\Skins"]
+Group2Launcher2Name=Rainmeter
+Group2Launcher2Icon=Rainmeter.png
 Group2Launcher2BG=027
 
 Group2Launcher3Action=["C:\Users\Tack\AppData\Local\GitHubDesktop\GitHubDesktop.exe"]
@@ -152,7 +152,7 @@ Group2Launcher6BG=120
 
 ;Name and icon for the navbar
 
-Group3BarName=03
+Group3BarName=Game
 Group3BarIcon=gamepad.png
 
 ;Launcher settings: action, name, icon and mouseover background

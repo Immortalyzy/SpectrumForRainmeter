@@ -1,6 +1,7 @@
 # Spectrum For Rainmeter
-v3.1
+v3.11
 
-Demo: https://streamable.com/ji58d
+Original : https://github.com/TheProtagonists/SpectrumForRainmeter
 
-CC 4.0 BY-NC-SA
+Add feathers for personnal uses only.
+Plan to add lua feathers as a practice of learning lua.
